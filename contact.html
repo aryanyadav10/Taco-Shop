@@ -6,25 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon1.png">
+    <link rel="icon" href="img/icon1.png">
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <ul>
+<header class="header">
+    <h1 class="header__h1">Contact Us</h1>
+<nav class="header__nav">
+    <ul class="header__ul">
         <li>
-            <a href="index.html">Home</a>
+            <a href="/">Home</a>
         </li>
         <li>
-            <a href="hours.html">Store Hours</a>
+            <a href="/#menu">Menu</a>
+        </li>
+        <li>
+            <a href="hours.html">Hours</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
         </li>
     </ul>
-<figure>
-    <img src="taco3.jpg" alt="tacoImage" width="400" height="267">
-    <figcaption>Little Taco Shop Tacos</figcaption>
-</figure>
+</nav>
+</header>
 
-<hr>
+<section class="hero">
+    <figure>
+        <img src="img/tacos_close_up_1000x649.png" alt="LTS Tacos" title="Tacos ready to eat!" width="1000" height="649">
+        <figcaption class="offscreen">
+            Little Taco Shop Tacos
+        </figcaption>
+    </figure>
+</section>
 
+<main>
+    <section>
 <h2>Our Contact Form</h2>
 <form action="https://httpbin.org/get"></form>
 <fieldset>
@@ -61,11 +76,13 @@
 </p>
 
 <a href="#">Back To Top</a>
+</section>
+</main>
 
-<hr>
-
+<footer>
 <p>
     Copyright &copy; The Little Taco Shop
 </p>
+</footer>
 </body>
 </html>
